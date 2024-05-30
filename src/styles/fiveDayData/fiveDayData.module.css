@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  /* border: 1px solid white; */
+  margin: 3rem 0rem;
+  gap: 8px;
+  padding: 8px;
+  transition: all 0.3s ease-in;
+  border-radius: 1rem;
+}
+
+.container:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #232931;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.fiveDayData {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.container img {
+  width: 50%;
+  object-fit: cover;
+}
